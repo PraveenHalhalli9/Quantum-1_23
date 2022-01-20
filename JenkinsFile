@@ -1,1 +1,12 @@
-git branch: 'main', credentialsId: '93df34c5-47b3-43ba-9b72-15f2455aee45', poll: false, url: 'https://github.com/PraveenHalhalli9/Quantum-1_23.git'
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                git branch: 'main', credentialsId: '93df34c5-47b3-43ba-9b72-15f2455aee45', poll: false, url: 'https://github.com/PraveenHalhalli9/Quantum-1_23.git'
+            }
+        }
+        
+    }
+}
