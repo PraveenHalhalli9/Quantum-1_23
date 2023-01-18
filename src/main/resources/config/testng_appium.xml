@@ -29,7 +29,7 @@
     <test name="Android Expense Tracker Test" enabled="true">
        <!--  <parameter name="driver.capabilities.model" value="Galaxy S.*"></parameter> -->
          <parameter name="driver.capabilities.platform" value="Android"></parameter>
-          <parameter name="driver.capabilities.platformVersion" value="11"></parameter>
+          <parameter name="driver.capabilities.platformVersion" value="12"></parameter>
         <parameter name="driver.capabilities.app" value="PUBLIC:Praveen/ExpenseTracker/demo/ExpenseAppVer1.3.apk"></parameter>
         <!-- <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/> -->
         <parameter name="env.resources" value="src/main/resources/android"/>
