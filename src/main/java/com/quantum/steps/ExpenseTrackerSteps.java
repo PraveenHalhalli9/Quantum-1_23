@@ -44,4 +44,9 @@ public class ExpenseTrackerSteps {
 	public void iShouldSeeErrorPopup() {
 		new ExpenseTrackerHomePage().verifyPopupText(); 
 	}
+	
+	@Then("I should see success popup")
+	public void iShouldSeeSuccessPopup() {
+		new ExpenseTrackerHomePage().verifyPopupText(); 
+	}
 }
