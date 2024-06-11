@@ -9,8 +9,8 @@
     <!-- Set driver.name value to perfectoDriver       -->
     <parameter name="driver.name" value="perfectoDriver"/>
 
-    <test name="IOS Expense Tracker Test" enabled="false">
-        <parameter name="driver.capabilities.deviceName" value="8A24DD8DD1B18340E0694F3F1F882CA25592E175"></parameter>
+    <test name="IOS Expense Tracker Test" enabled="true">
+        <parameter name="driver.capabilities.deviceName" value="955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF"></parameter>
         <parameter name="driver.capabilities.app" value="PUBLIC:ExpenseTracker/Native/iOS/InvoiceApp1.0.ipa"/>
         <parameter name="driver.capabilities.bundleId" value="io.perfecto.expense.tracker"/>
         <parameter name="driver.capabilities.iOSResign" value="true"/>
@@ -18,7 +18,7 @@
 
         <groups>
             <run>
-                <include name="@expense"/>
+                <include name="@expenseTracker"/>
             </run>
         </groups>
         <classes>
@@ -29,9 +29,9 @@
     <test name="Android Expense Tracker Test" enabled="true">
        <!--  <parameter name="driver.capabilities.model" value="Galaxy S.*"></parameter> -->
          <parameter name="driver.capabilities.platform" value="Android"></parameter>
-          <parameter name="driver.capabilities.platformVersion" value="12"></parameter>
+          <parameter name="driver.capabilities.platformVersion" value="9"></parameter>
         <parameter name="driver.capabilities.app" value="PUBLIC:Praveen/ExpenseTracker/demo/ExpenseAppVer1.3.apk"></parameter>
-        <!-- <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/> -->
+       <parameter name="driver.capabilities.appPackage" value="io.perfecto.expense.tracker"/>
         <parameter name="env.resources" value="src/main/resources/android"/>
         <groups>
             <run>
