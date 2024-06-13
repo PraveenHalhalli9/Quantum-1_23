@@ -66,8 +66,8 @@
 
 					<systemProperties>
                         <systemProperty>
-                            <key>perfectoTunnel</key>
-                            <value>${perfectoTunnel}</value>
+                            <key>perfecto.capabilities.tunnelId</key>
+                            <value>${perfecto.capabilities.tunnelId}</value>
                         </systemProperty>                        
                     </systemProperties>
 				</configuration>
