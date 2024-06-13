@@ -13,7 +13,7 @@ public class ExpenseTrackerSteps {
 	@Then("I should see expense tracker login screen")
 	public void verifyExpenseTrackerLogin() {
 
-		System.out.println(ConfigurationManager.getBundle().getString("perfectoTunnel"));
+		System.out.println(ConfigurationManager.getBundle().getString("perfecto.capabilities.tunnelId"));
 		new ExpenseTrackerLoginPage().verifyExpenseTrackerLoginScreen();
 	    
 		/*PerfectoApplicationSteps.setSuccessSensorAuthenticationtoAppById(id);
