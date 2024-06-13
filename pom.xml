@@ -63,6 +63,13 @@
 						<suiteXmlFile>${testngXmlDir}/${testngXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<skipTests>${skipTests}</skipTests>
+
+					<systemProperties>
+                        <systemProperty>
+                            <key>perfectoTunnel</key>
+                            <value>${perfectoTunnel}</value>
+                        </systemProperty>                        
+                    </systemProperties>
 				</configuration>
 			</plugin>
 		</plugins>
