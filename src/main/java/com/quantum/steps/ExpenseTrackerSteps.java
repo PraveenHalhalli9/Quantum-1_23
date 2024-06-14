@@ -24,6 +24,8 @@ public class ExpenseTrackerSteps {
 	
 	@Then("I should see expense tracker Native login screen")
 	public void verifyExpenseTrackerNativeLogin() {
+
+			System.out.println("Tunnel ID generated is " + ConfigurationManager.getBundle().getString("perfectoTunnel"));
 		new ExpenseTrackerLoginPage().verifyExpenseTrackerNativeLoginScreen();
 	}
 	
